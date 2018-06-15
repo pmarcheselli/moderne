@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+main {
+  width: 85%;
+  margin: auto; }
+
+img {
+  max-width: 100%; }
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1.75px; }
+
+.featured {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  .featured h2 {
+    font-size: 1.25rem;
+    padding-bottom: 1.75rem;
+    letter-spacing: 1.15px; }
+  .featured p {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; }
+  .featured a {
+    text-decoration: none;
+    color: black; }
+    .featured a:hover {
+      color: #5f9ea0; }
+    .featured a img:hover {
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+      /* For IE8 and earlier */ }
+
+/*# sourceMappingURL=styles.css.map */
