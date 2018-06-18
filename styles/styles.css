@@ -7,12 +7,12 @@
 body {
   font-family: "Montserrat", sans-serif; }
 
-main {
-  width: 85%;
-  margin: auto; }
-
 img {
   max-width: 100%; }
+
+.side-margin {
+  width: 85%;
+  margin: auto; }
 
 .navbar {
   padding-top: 1rem;
@@ -47,5 +47,25 @@ img {
       opacity: 0.75;
       filter: alpha(opacity=75);
       /* For IE8 and earlier */ }
+
+.lookbook {
+  margin: 0;
+  padding: 2rem 0 3rem 0; }
+
+.blog {
+  padding-top: 2rem;
+  padding-bottom: 3rem; }
+  .blog a {
+    text-decoration: none; }
+    .blog a p {
+      background-color: lightgray;
+      padding-top: 10px;
+      padding-bottom: 1rem;
+      padding-left: 10px;
+      color: darkcyan; }
+  .blog .blog1 p {
+    height: 4.75rem; }
+  .blog .blog2 p {
+    height: 8rem; }
 
 /*# sourceMappingURL=styles.css.map */

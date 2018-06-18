@@ -15,22 +15,25 @@ body {
   font-family: $main-font;
 }
 
-main {
-  width: 85%;
-  margin: auto;
-}
+//main {
+//  width: 85%;
+//  margin: auto;
+//}
 
 img {
   max-width: 100%;
 }
 
+.side-margin {
+  width: 85%;
+  margin: auto;
+}
 
 // NAVBAR //
 
 .navbar {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  
 }
 
 .navbar-brand {
@@ -42,11 +45,15 @@ img {
   padding-left: 10px;
 }
 
+
+
 // NEWS SECTION //
 
 .news-section {
   padding-top: 3rem;
 }
+
+
 
 // FEATURED ITEMS //
 
@@ -76,4 +83,40 @@ img {
     }
   }
 }
+
+
+// LOOKBOOK //
+
+.lookbook {
+  margin: 0;
+  padding: 2rem 0 3rem 0;
+}
+
+// BLOG //
+
+.blog {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  a {
+    text-decoration: none;
+    p {
+      background-color: lightgray;
+      padding-top: 10px;
+      padding-bottom: 1rem;
+      padding-left: 10px;
+      color: darkcyan;
+    }
+  }
+  .blog1 {
+    p {
+    height: 4.75rem;
+    }
+  }
+  .blog2{
+    p {
+     height: 8rem;  
+    }
+  }
+}
+
 
