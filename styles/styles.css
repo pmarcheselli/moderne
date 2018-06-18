@@ -53,19 +53,30 @@ img {
   padding: 2rem 0 3rem 0; }
 
 .blog {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 3rem; }
   .blog a {
     text-decoration: none; }
-    .blog a p {
-      background-color: lightgray;
-      padding-top: 10px;
+    .blog a h3 {
+      background-color: #ededed;
+      letter-spacing: 1.15px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      padding-top: 1.25rem;
       padding-bottom: 1rem;
-      padding-left: 10px;
+      padding-left: 0.95rem;
       color: darkcyan; }
-  .blog .blog1 p {
-    height: 4.75rem; }
-  .blog .blog2 p {
-    height: 8rem; }
+    .blog a p {
+      background-color: #ededed;
+      font-size: 0.85rem;
+      color: slategray;
+      padding-left: 0.95rem;
+      padding-bottom: 2rem; }
+    .blog a img:hover {
+      opacity: 0.75;
+      filter: alpha(opacity=75);
+      /* For IE8 and earlier */ }
+  .blog .blog-2 p {
+    height: 6rem; }
 
 /*# sourceMappingURL=styles.css.map */

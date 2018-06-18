@@ -1,5 +1,6 @@
 //$accent-color: 
 $highlight-color: #5f9ea0; // cadetblue // 
+$accent-color: #ededed; // light grey //
 $main-font: 'Montserrat', sans-serif;
 
 
@@ -95,26 +96,37 @@ img {
 // BLOG //
 
 .blog {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
   a {
     text-decoration: none;
-    p {
-      background-color: lightgray;
-      padding-top: 10px;
+    h3 {
+      background-color: $accent-color;
+      letter-spacing: 1.15px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      padding-top: 1.25rem;
       padding-bottom: 1rem;
-      padding-left: 10px;
+      padding-left: 0.95rem;
       color: darkcyan;
     }
-  }
-  .blog1 {
     p {
-    height: 4.75rem;
+      background-color: $accent-color;
+      font-size: 0.85rem;
+      color: slategray;
+      padding-left: 0.95rem;
+      padding-bottom: 2rem;
+    }
+    img {
+      &:hover {
+      opacity: 0.75;
+      filter: alpha(opacity=75); /* For IE8 and earlier */
+      }
     }
   }
-  .blog2{
+  .blog-2 {
     p {
-     height: 8rem;  
+      height: 6rem;  
     }
   }
 }
