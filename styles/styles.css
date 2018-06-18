@@ -79,4 +79,10 @@ img {
   .blog .blog-2 p {
     height: 6rem; }
 
+footer {
+  margin-top: 3rem; }
+  footer .footer-inner {
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+
 /*# sourceMappingURL=styles.css.map */
