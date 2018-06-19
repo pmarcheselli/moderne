@@ -157,11 +157,13 @@ main {
       padding-bottom: 5px; }
       main .main-content .row .filter-section .list-group a:hover {
         color: #5f9ea0; }
-  main .main-content .row .product-section .products-header {
-    font-size: 1.15rem;
+  main .main-content .row .product-section .products-header .category-title {
+    font-size: 1.20rem;
     font-weight: bolder;
     letter-spacing: 1.15px;
     color: #5f9ea0; }
+  main .main-content .row .product-section .products-header .category-options .custom-select {
+    font-size: 0.85rem; }
   main .main-content .row .product-section .row .col-md-6 {
     padding-top: 20px;
     padding-bottom: 30px; }

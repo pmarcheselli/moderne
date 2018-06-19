@@ -260,11 +260,18 @@ main {
       }
       .product-section {
         .products-header {
-            font-size: 1.15rem;
+          .category-title {
+            font-size: 1.20rem;
             font-weight: bolder;
             letter-spacing: 1.15px;
             color: $highlight-color;
+            }
+          .category-options {
+            .custom-select {
+              font-size: 0.85rem;
+            }
           }
+        }
         .row {
           .col-md-6 {
             padding-top: 20px;
