@@ -83,6 +83,35 @@ footer {
   margin-top: 3rem; }
   footer .footer-inner {
     padding-top: 3rem;
-    padding-bottom: 3rem; }
+    padding-bottom: 5rem; }
+    footer .footer-inner h4 {
+      font-size: 1rem;
+      letter-spacing: 1.10px;
+      font-weight: bold;
+      padding-bottom: 1rem; }
+
+.help li {
+  font-size: 0.85rem;
+  padding-bottom: 5px; }
+
+.contact li {
+  font-size: 0.85rem;
+  padding-bottom: 5px; }
+.contact i {
+  color: dimgrey;
+  padding-right: 4px; }
+
+.explore li {
+  font-size: 0.85rem;
+  padding-bottom: 5px; }
+
+.follow i {
+  color: dimgray;
+  padding-right: 8px;
+  font-size: 1.25rem; }
+
+.sign-up p {
+  font-size: 0.85rem;
+  padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
