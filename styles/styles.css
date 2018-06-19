@@ -135,4 +135,35 @@ footer {
       font-size: 0.85rem;
       padding-bottom: 10px; }
 
+.inner-cover {
+  height: 38vh;
+  background-image: url("../images/cover-furniture.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+main {
+  padding-top: 3rem;
+  padding-bottom: 2rem; }
+  main .main-content .row .filter-section {
+    padding-left: 0; }
+    main .main-content .row .filter-section h1 {
+      font-size: 1.25rem;
+      letter-spacing: 1.15px; }
+    main .main-content .row .filter-section .list-group a {
+      text-decoration: none;
+      color: black;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+      main .main-content .row .filter-section .list-group a:hover {
+        color: #5f9ea0; }
+  main .main-content .row .product-section .products-header {
+    font-size: 1.15rem;
+    font-weight: bolder;
+    letter-spacing: 1.15px;
+    color: #5f9ea0; }
+  main .main-content .row .product-section .row .col-md-6 {
+    padding-top: 20px;
+    padding-bottom: 30px; }
+
 /*# sourceMappingURL=styles.css.map */

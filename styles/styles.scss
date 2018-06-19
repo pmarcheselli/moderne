@@ -221,8 +221,58 @@ footer {
 
 
 
+// 8. INNER COVER
 
+.inner-cover {
+  height: 38vh;
+  background-image: url("../images/cover-furniture.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+//main {
+//  .main-content {
+//    margin: 1rem;
+//  }
+//}
 
-
+main {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  .main-content {
+    .row {
+      .filter-section {
+        padding-left: 0;
+        h1 {
+          font-size: 1.25rem;
+          letter-spacing: 1.15px;
+        }
+        .list-group a {
+          text-decoration: none;
+          color: black;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          &:hover {
+            color: $highlight-color;
+          }
+        }
+      }
+      .product-section {
+        .products-header {
+            font-size: 1.15rem;
+            font-weight: bolder;
+            letter-spacing: 1.15px;
+            color: $highlight-color;
+          }
+        .row {
+          .col-md-6 {
+            padding-top: 20px;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
 
