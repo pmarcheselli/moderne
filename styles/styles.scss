@@ -95,8 +95,18 @@ img {
 
 // BLOG //
 
-.blog {
+.blog-header {
   padding-top: 3rem;
+//  padding-bottom: 3rem;
+  h2 {
+    font-size: 1.25rem;
+    letter-spacing: 1.15px;
+  }
+}
+
+
+.blog {
+  padding-top: 1.75rem;
   padding-bottom: 3rem;
   a {
     text-decoration: none;
