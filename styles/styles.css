@@ -76,14 +76,19 @@ img {
       background-color: #ededed;
       font-size: 0.85rem;
       color: slategray;
+      line-height: 18px;
       padding-left: 0.95rem;
-      padding-bottom: 2rem; }
+      padding-right: 0.95rem;
+      padding-bottom: 1rem; }
     .blog a img:hover {
       opacity: 0.75;
       filter: alpha(opacity=75);
       /* For IE8 and earlier */ }
-  .blog .blog-2 p {
-    height: 6rem; }
+    .blog a .blog-2 {
+      padding-bottom: 1.85rem;
+      font-style: italic; }
+    .blog a .blog-1 {
+      font-style: italic; }
 
 footer {
   margin-top: 3rem; }
@@ -95,44 +100,39 @@ footer {
       letter-spacing: 1.10px;
       font-weight: bold;
       padding-bottom: 1rem; }
-
-.help {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .help li {
-    font-size: 0.85rem;
-    padding-bottom: 5px; }
-
-.contact {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .contact li {
-    font-size: 0.85rem;
-    padding-bottom: 5px; }
-  .contact i {
-    color: dimgrey;
-    padding-right: 4px; }
-
-.explore {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .explore li {
-    font-size: 0.85rem;
-    padding-bottom: 5px; }
-
-.follow {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .follow i {
-    color: dimgray;
-    padding-right: 8px;
-    font-size: 1.25rem; }
-
-.sign-up {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .sign-up p {
-    font-size: 0.85rem;
+  footer .help {
+    padding-top: 10px;
     padding-bottom: 10px; }
+    footer .help li {
+      font-size: 0.85rem;
+      padding-bottom: 5px; }
+  footer .contact {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    footer .contact li {
+      font-size: 0.85rem;
+      padding-bottom: 5px; }
+    footer .contact i {
+      color: dimgrey;
+      padding-right: 4px; }
+  footer .explore {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    footer .explore li {
+      font-size: 0.85rem;
+      padding-bottom: 5px; }
+  footer .follow {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    footer .follow i {
+      color: dimgray;
+      padding-right: 8px;
+      font-size: 1.25rem; }
+  footer .sign-up {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    footer .sign-up p {
+      font-size: 0.85rem;
+      padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

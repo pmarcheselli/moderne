@@ -97,13 +97,11 @@ img {
 
 .blog-header {
   padding-top: 3rem;
-//  padding-bottom: 3rem;
   h2 {
     font-size: 1.25rem;
     letter-spacing: 1.15px;
   }
 }
-
 
 .blog {
   padding-top: 1.75rem;
@@ -124,8 +122,10 @@ img {
       background-color: $accent-color;
       font-size: 0.85rem;
       color: slategray;
+      line-height: 18px;
       padding-left: 0.95rem;
-      padding-bottom: 2rem;
+      padding-right: 0.95rem;
+      padding-bottom: 1rem;
     }
     img {
       &:hover {
@@ -133,13 +133,16 @@ img {
       filter: alpha(opacity=75); /* For IE8 and earlier */
       }
     }
-  }
-  .blog-2 {
-    p {
-      height: 6rem;  
+    .blog-2 {
+      padding-bottom: 1.85rem;
+      font-style: italic;
+    }
+    .blog-1 {
+      font-style: italic;
     }
   }
 }
+
 
 
 // FOOTER //
@@ -156,54 +159,57 @@ footer {
       padding-bottom: 1rem;
     }
   }
-}
-
-.help {
+  .help {
   padding-top: 10px;
   padding-bottom: 10px;
-  li {
-    font-size: 0.85rem;
-    padding-bottom: 5px;
+    li {
+      font-size: 0.85rem;
+      padding-bottom: 5px;
+    }
+  }
+  .contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+    li {
+      font-size: 0.85rem;
+      padding-bottom: 5px;
+    }
+      i {
+        color: dimgrey;
+        padding-right: 4px;
+    }
+  }
+  .explore {
+  padding-top: 10px;
+  padding-bottom: 10px;
+    li {
+      font-size: 0.85rem;
+      padding-bottom: 5px;
+    }
+  }
+  .follow {
+  padding-top: 10px;
+  padding-bottom: 10px;
+    i { 
+      color: dimgray;
+      padding-right: 8px;
+      font-size: 1.25rem;
+    }
+  }
+  .sign-up {
+  padding-top: 10px;
+  padding-bottom: 10px;
+    p {
+      font-size: 0.85rem;
+      padding-bottom: 10px;
+    }
   }
 }
 
-.contact {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  li {
-    font-size: 0.85rem;
-    padding-bottom: 5px;
-  }
-    i {
-      color: dimgrey;
-      padding-right: 4px;
-  }
-}
 
-.explore {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  li {
-    font-size: 0.85rem;
-    padding-bottom: 5px;
-  }
-}
 
-.follow {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  i { 
-    color: dimgray;
-    padding-right: 8px;
-    font-size: 1.25rem;
-  }
-}
 
-.sign-up {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  p {
-    font-size: 0.85rem;
-    padding-bottom: 10px;
-  }
-}
+
+
+
+
