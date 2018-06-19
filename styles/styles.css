@@ -167,6 +167,62 @@ main {
   main .main-content .row .product-section .row .col-md-6 {
     padding-top: 20px;
     padding-bottom: 30px; }
+    main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches {
+      padding-left: 15px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-pink {
+        background-color: pink;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-grey {
+        background-color: grey;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-lt-grey {
+        background-color: lightgray;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-lagoon {
+        background-color: teal;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-olive {
+        background-color: olive;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-tan {
+        background-color: darkorange;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-black {
+        background-color: black;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-royal {
+        background-color: navy;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-colors .swatches .s-green {
+        background-color: darkgreen;
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        margin-right: 6px; }
     main .main-content .row .product-section .row .col-md-6 .module .module-body .module-title {
       padding-top: 10px; }
       main .main-content .row .product-section .row .col-md-6 .module .module-body .module-title a {

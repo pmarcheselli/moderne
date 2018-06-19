@@ -277,22 +277,74 @@ main {
             padding-bottom: 30px;
             .module {
               .module-body {
-//                .module-colors {
-//                  .swatches {
-//                    .swatches li {
-//                      border-radius: 50%;
-//                      height: 16px;
-//                      width: 16px;
-//                      list-style-type: none;
-//                      .s-pink {
-//                        background-color: pink;
-//                      }
-//                      .s-grey {
-//                        background-color: grey;
-//                      }
-//                    }
-//                  }
-//                }
+                .module-colors {
+                  .swatches {
+                    padding-left: 15px;
+                    .s-pink {
+                      background-color: pink;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px
+                    }
+                    .s-grey {
+                      background-color: grey;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                    .s-lt-grey {
+                      background-color: lightgray;
+                      border-radius: 12px;
+                       width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                    .s-lagoon {
+                      background-color: teal;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                    .s-olive {
+                      background-color: olive;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                    .s-tan {
+                      background-color: darkorange;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                    .s-black {
+                      background-color: black;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                    .s-royal {
+                      background-color: navy;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                    .s-green {
+                      background-color: darkgreen;
+                      border-radius: 12px;
+                      width: 12px;
+                      height: 12px;
+                      margin-right: 6px;
+                    }
+                  }
+                }
                 .module-title {
                   padding-top: 10px;
                   a {
