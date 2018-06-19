@@ -90,28 +90,43 @@ footer {
       font-weight: bold;
       padding-bottom: 1rem; }
 
-.help li {
-  font-size: 0.85rem;
-  padding-bottom: 5px; }
-
-.contact li {
-  font-size: 0.85rem;
-  padding-bottom: 5px; }
-.contact i {
-  color: dimgrey;
-  padding-right: 4px; }
-
-.explore li {
-  font-size: 0.85rem;
-  padding-bottom: 5px; }
-
-.follow i {
-  color: dimgray;
-  padding-right: 8px;
-  font-size: 1.25rem; }
-
-.sign-up p {
-  font-size: 0.85rem;
+.help {
+  padding-top: 10px;
   padding-bottom: 10px; }
+  .help li {
+    font-size: 0.85rem;
+    padding-bottom: 5px; }
+
+.contact {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .contact li {
+    font-size: 0.85rem;
+    padding-bottom: 5px; }
+  .contact i {
+    color: dimgrey;
+    padding-right: 4px; }
+
+.explore {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .explore li {
+    font-size: 0.85rem;
+    padding-bottom: 5px; }
+
+.follow {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .follow i {
+    color: dimgray;
+    padding-right: 8px;
+    font-size: 1.25rem; }
+
+.sign-up {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .sign-up p {
+    font-size: 0.85rem;
+    padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
