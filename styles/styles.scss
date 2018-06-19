@@ -14,6 +14,8 @@ $main-font: 'Montserrat', sans-serif;
 // 5. Lookbook
 // 6. Blog
 // 7. Footer
+// 8. Inner Cover
+// 9. Products Section
 
 
 
@@ -231,11 +233,8 @@ footer {
   background-size: cover;
 }
 
-//main {
-//  .main-content {
-//    margin: 1rem;
-//  }
-//}
+
+// 9. PRODUCTS SECTION
 
 main {
   padding-top: 3rem;
@@ -276,6 +275,25 @@ main {
           .col-md-6 {
             padding-top: 20px;
             padding-bottom: 30px;
+            .module {
+              .module-body {
+                .module-title {
+                  padding-top: 10px;
+                  a {
+                  text-decoration: none;
+                  color: black;
+                  font-size: 0.95rem;
+                  letter-spacing: 1px;
+                  }  
+                }
+                .module-price {
+                  color: gray;
+                  font-size: 0.90rem;
+                  letter-spacing: 0.90px;
+                  padding-top: 5px;
+                }
+              }
+            }
           }
         }
       }

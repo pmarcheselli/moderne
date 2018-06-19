@@ -167,5 +167,17 @@ main {
   main .main-content .row .product-section .row .col-md-6 {
     padding-top: 20px;
     padding-bottom: 30px; }
+    main .main-content .row .product-section .row .col-md-6 .module .module-body .module-title {
+      padding-top: 10px; }
+      main .main-content .row .product-section .row .col-md-6 .module .module-body .module-title a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.95rem;
+        letter-spacing: 1px; }
+    main .main-content .row .product-section .row .col-md-6 .module .module-body .module-price {
+      color: gray;
+      font-size: 0.90rem;
+      letter-spacing: 0.90px;
+      padding-top: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
