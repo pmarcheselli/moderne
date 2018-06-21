@@ -8,7 +8,8 @@ body {
   font-family: "Montserrat", sans-serif; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  hight: auto; }
 
 .side-margin {
   width: 85%;
@@ -25,8 +26,9 @@ img {
 .nav-right {
   padding-left: 10px; }
 
-.news-section {
-  padding-top: 3rem; }
+.promo-section {
+  margin-top: 1rem;
+  padding: 3rem; }
 
 .featured {
   padding-top: 3rem;
@@ -50,7 +52,7 @@ img {
 
 .lookbook {
   margin: 0;
-  padding: 2rem 0 3rem 0; }
+  padding: 3rem 0; }
 
 .blog-header {
   padding-top: 3rem; }
