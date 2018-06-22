@@ -1,3 +1,10 @@
+@charset "UTF-8";
+/**
+*	HTML & CSS
+*	Copyright © Patricia Marcheselli. All Rights Reserved.
+*   Images used for educational purposes only.
+*   Please do not replicate without written consent. 
+**/
 * {
   margin: 0;
   padding: 0;
@@ -138,7 +145,7 @@ footer {
       padding-bottom: 10px; }
 
 .inner-cover {
-  height: 38vh;
+  height: 60vh;
   background-image: url("../images/cover-furniture.jpeg");
   background-position: center;
   background-repeat: no-repeat;
